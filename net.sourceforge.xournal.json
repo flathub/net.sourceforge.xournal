@@ -101,7 +101,8 @@
           "commands": [
             "install -D xournal.desktop /app/share/applications/net.sourceforge.xournal.desktop",
             "desktop-file-edit --set-key=Icon --set-value='net.sourceforge.xournal' /app/share/applications/net.sourceforge.xournal.desktop",
-            "install -D pixmaps/xournal.png /app/share/icons/hicolor/512x512/apps/net.sourceforge.xournal.png",
+            "install -D pixmaps/xournal.png /app/share/icons/hicolor/48x48/apps/net.sourceforge.xournal.png",
+            "install -D pixmaps/xournal.svg /app/share/icons/hicolor/scalable/apps/net.sourceforge.xournal.svg",
             "install -D appdata.xml /app/share/metainfo/net.sourceforge.xournal.appdata.xml"
           ]
         }
