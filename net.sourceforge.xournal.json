@@ -1,8 +1,8 @@
 {
   "app-id": "net.sourceforge.xournal",
-  "runtime": "org.gnome.Platform",
-  "runtime-version": "3.28",
-  "sdk": "org.gnome.Sdk",
+  "runtime": "org.freedesktop.Platform",
+  "runtime-version": "18.08",
+  "sdk": "org.freedesktop.Sdk",
   "command": "xournal",
   "finish-args": [
     "--share=ipc",
@@ -10,6 +10,7 @@
     "--filesystem=host"
   ],
   "modules": [
+    "shared-modules/gtk2/gtk2.json",
     {
       "name": "libart",
       "rm-configure": true,
@@ -79,8 +80,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://poppler.freedesktop.org/poppler-0.64.0.tar.xz",
-          "sha256": "b21df92ca99f78067785cf2dc8e06deb04726b62389c0ee1f5d8b103c77f64b1"
+          "url": "https://poppler.freedesktop.org/poppler-0.77.0.tar.xz",
+          "sha256": "7267eb4cbccd64a58244b8211603c1c1b6bf32c7f6a4ced2642865346102f36b"
         }
       ]
     },
