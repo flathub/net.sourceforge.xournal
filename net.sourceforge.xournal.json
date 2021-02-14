@@ -1,7 +1,7 @@
 {
   "app-id": "net.sourceforge.xournal",
   "runtime": "org.freedesktop.Platform",
-  "runtime-version": "18.08",
+  "runtime-version": "19.08",
   "sdk": "org.freedesktop.Sdk",
   "command": "xournal",
   "finish-args": [
@@ -11,6 +11,7 @@
   ],
   "modules": [
     "shared-modules/gtk2/gtk2.json",
+    "shared-modules/intltool/intltool-0.51.json",
     {
       "name": "libart",
       "rm-configure": true,
